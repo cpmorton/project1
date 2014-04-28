@@ -3,15 +3,52 @@ git diff --color-words
 git diff --word-diff --author=cpmorton --since=2.weeks.ago
 git commit does not send to other people
 
-git pull doesn't overwrite anything local
+git pull doesn't overwrite anything local by default
+git pull is a fetch + merge
 
+===FORK/CLONE
+https://github.com/githubteacher/family-recipes
+git clone git@github.com:cpmorton/family-recipes.git
+cd family-recipes/
+git branch -vv
+git remote -v
+vi oatmeal.txt
+git add oatmeal.txt
+git status
+git commit
+git remote -v
+git branch -a
+git branch -vv
+git push
+git remote add teacher-repo https://github.com/githubteacher/family-recipes
+git pull teacher-repo master
+git push
+git log --oneline
 
+===RENAMES
+mv oatmeal.txt cpmorton-oatmeal.txt
+git add -A
+git status
+git diff --staged cpmorton-oatmeal.txt
+git commit -m'renamed my oatmeal recipe with my name'
+git push
+git log --stat -M
+
+===MERGING
+git mergetool --tool-help
+exiting this updates the index / stages the change
+
+===CI integration
+webhooks - try requestb.in
+pull request 
+
+===LINKS
+licecap - animated gifs
+git config --global core.autocrlf input
 hydeslides
-https://training.github.com/kit <- more training materials
-
-
+https://training.github.com/kit <- training materials
+http://git-scm.com/book/en/Customizing-Git-Git-Configuration
 GIT REPOS ARE CHEAP - use git push to send things to other people.  People can own their own scripts, and share, or team can own wome apps
 
-can we get more info info on the "boxen" thing
+Q: can we get more info info on the "boxen" thing
 
-http://git-scm.com/book/en/Customizing-Git-Git-Configuration
