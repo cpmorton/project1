@@ -1,4 +1,4 @@
-THIS IS NOT GOING TO MAKE IT
+#THIS IS NOT GOING TO MAKE IT
 
 THIS IS
 
@@ -8,6 +8,6 @@ NO a First line
 
 an changed Second line
 
-i am the Third line
+i am not the Third line
 
-haha
+haha - a Fourth line
