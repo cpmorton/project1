@@ -1,7 +1,7 @@
 a First line
 
-an Second line
+an changed Second line
 
-i the Third line
+i am the Third line
 
 haha
