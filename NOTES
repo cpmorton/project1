@@ -1,1 +1,17 @@
 "git add" means to add an instruction to the list of things that I'm going to do with commit - put things in the cart
+git diff --color-words
+git diff --word-diff --author=cpmorton --since=2.weeks.ago
+git commit does not send to other people
+
+git pull doesn't overwrite anything local
+
+
+hydeslides
+https://training.github.com/kit <- more training materials
+
+
+GIT REPOS ARE CHEAP - use git push to send things to other people.  People can own their own scripts, and share, or team can own wome apps
+
+can we get more info info on the "boxen" thing
+
+http://git-scm.com/book/en/Customizing-Git-Git-Configuration
